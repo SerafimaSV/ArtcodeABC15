@@ -6,7 +6,7 @@ package ua.artcode.week1;
 public class HelloWorld {
     public static void main(String[] args) {
         int age = 23;
-        String name = "Kolia";
+        String name = "Kolia + Olya";
 
         System.out.println(name + " " + 23 );
 
