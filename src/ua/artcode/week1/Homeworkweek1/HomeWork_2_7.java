@@ -11,14 +11,16 @@ public class HomeWork_2_7 {
         System.out.println("Enter two numbers");
         int a = sc.nextInt();
         int b = sc.nextInt();
-        if (a % b == 0 ){
-            System.out.println(a/b  + " остаток " + a%b);
+        if (a % b == 0) {
+            System.out.println(a / b + " остаток " + a % b);
             System.out.println("true");
-        }
-        else {
-            System.out.println(a/b  + " остаток " + a%b);
-//            System.out.println(a/b);
-//            System.out.println(b/a);
+        } else if (b % a == 0) {
+            System.out.println(b / a + " остаток " + b % a);
+            System.out.println("true");
+        } else {
+            System.out.println(a / b + " остаток " + a % b);
+            System.out.println("false");
+            System.out.println(a / b + " остаток " + a % b);
             System.out.println("false");
         }
 
